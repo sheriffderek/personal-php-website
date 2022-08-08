@@ -1,13 +1,34 @@
 <?php include('header.php'); ?>
 
-<header class='page-header'>
-	<h1>About</h1>
 
-	<p>Lorem ipsum <a href='contact.php'>Contact</a>, amet consectetur adipisicing, elit. Neque quisquam rem nulla sit odio ratione atque dolore, ad mollitia pariatur magni excepturi vitae commodi ea nam quae officiis consequuntur recusandae.</p>
-</header>
+<?php 
+	$pageTitle = "About page title";
+	include('page-header.php');
+?>
 
-<section>
 
+<section class='new-news'>
+	<inner-column>
+		
+		<?php 
+			$heading = "New news";
+			include('graphic-diptych.php');
+		?>
+
+	</inner-column>
 </section>
+
+
+<section class='other-news'>
+	<inner-column>
+		
+		<?php 
+			$heading = "In other news";
+			include('graphic-diptych.php');
+		?>
+
+	</inner-column>
+</section>
+
 
 <?php include('footer.php'); ?>

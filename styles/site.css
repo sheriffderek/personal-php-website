@@ -1,0 +1,89 @@
+/* P reset */
+@import 'preset.css';
+
+/* S etup */
+@import 'setup.css';
+
+/* S setings */
+@import 'settings.css';
+@import 'developer-styles.css';
+
+/* S tructure */
+@import 'structure.css';
+
+/* T ypography */
+@import 'typography.css';
+
+/* C omponents */
+@import 'components.css';
+
+/* S tuff (modules) */
+@import 'modules.css';
+
+/* S ections and more stuff */
+
+/* then other contextual styles */
+
+
+/* MODULES */
+mast-head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+graphic-diptych {
+	display: block;
+	display: grid;
+	/*border: 2px solid blue;*/
+	padding: 10vh 0;
+}
+
+graphic-diptych .graphic {
+	background-color: var(--ink);
+	aspect-ratio: 3 / 2;
+}
+
+graphic-diptych .content {
+	/*padding: 20px;*/
+}
+
+@media (min-width: 600px) {
+	graphic-diptych {
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+}
+
+.site-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+}
+
+.site-menu a {
+	display: block;
+	padding: 10px;
+}
+
+.site-header .logo * {
+	fill: var(--ink);
+}
+
+
+/* THEME */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+.other-news {
+	background-color: var(--ink);
+	color: var(--paper);
+}
+
+.other-news graphic-diptych .graphic {
+	background-color: var(--paper);
+}
