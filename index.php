@@ -1,36 +1,31 @@
 
 <?php include('header.php'); ?>
 
+<?php echo "?" . queryString(); ?>
 
-<?php 
-	$pageTitle = "HOME page title";
-	$pageIntro = "Welcome home, buddy.";
-	include('templates/modules/page-header/template.php');
+<hr>
+
+<?php
+
+	/* ROUTER */
+	$page = "home";
+	if ( isset($_GET['page']) ) {
+		$page = $_GET['page'];
+	}
+
+	if ($page == "home") {
+		echo "home";
+	}
+
+	if ($page == "about") {
+		echo "about";
+	}
+
+	if ($page == "contact") {
+		echo "contact";
+	}
+
 ?>
-
-
-<section class='our-new-award'>
-	<inner-column>
-		
-		<?php 
-			$heading = "Our new award";
-			include('templates/modules/graphic-diptych/template.php');
-		?>
-
-	</inner-column>
-</section>
-
-
-<section class='latest-projects'>
-	<inner-column>
-		
-		<?php 
-			$heading = "My latest besties";
-			include('templates/modules/projects-spotlight/template.php');
-		?>
-
-	</inner-column>
-</section>
 
 
 <?php include('footer.php'); ?>

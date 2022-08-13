@@ -69,6 +69,11 @@ body {
 	order: 2;
 }
 
+footer nav ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 
 
 

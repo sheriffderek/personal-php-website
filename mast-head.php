@@ -8,13 +8,13 @@
 	<nav class='site-menu'>
 		<ul>
 			<li>
-				<a href='index.php'>Home</a>
+				<a href='?'>Home</a>
 			</li>
 			<li>
-				<a href='about.php'>About</a>
+				<a href='?page=about'>About</a>
 			</li>
 			<li>
-				<a href='contact.php'>Contact</a>
+				<a href='?page=contact'>Contact</a>
 			</li>
 		</ul>
 	</nav>
