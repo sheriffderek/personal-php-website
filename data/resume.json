@@ -1,0 +1,110 @@
+{
+	"pageTitle": "My cool resume",
+	"introduction": "Cover letter / intro",
+
+	"sections": [
+		{
+			"heading": "Work Experience",
+			"experiences": [
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				},
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				},
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				},
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				}
+			]
+		},
+		{
+			"heading": "Education",
+			"experiences": [
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				},
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				}
+			]
+		},
+		{
+			"heading": "Other",
+			"experiences": [
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				},
+				{
+					"year": "1994",
+					"company": "Circut City",
+					"role": "Clerk",
+					"description": "what I did and how that bridged the previous jobs into this ont / and prepares me for the next one",
+					"tools": [
+						"Microsoft Word",
+						"Microsoft Excel",
+						"Adobe Acrobat"
+					]
+				}
+			]
+		}
+	]
+}

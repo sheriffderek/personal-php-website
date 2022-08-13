@@ -1,14 +1,18 @@
+
 <?php include('header.php'); ?>
+
 
 <?php 
 	$pageTitle = "Contact page title";
-	include('page-header.php');
+	include('templates/modules/page-header/template.php');
 ?>
+
 
 <section>
 	<inner-column>
-		<?php include('generic-text.php'); ?>
+		<?php include('templates/modules/generic-text/template.php'); ?>
 	</inner-column>
 </section>
+
 
 <?php include('footer.php'); ?>

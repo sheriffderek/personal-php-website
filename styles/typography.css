@@ -11,7 +11,7 @@
 	}
 }
 
-.attention-voice	{
+.attention-voice, generic-text h2 {
 	font-family: sans-serif;
 	font-size: 30px;
 }

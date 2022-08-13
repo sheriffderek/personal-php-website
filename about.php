@@ -3,7 +3,7 @@
 
 <?php 
 	$pageTitle = "About page title";
-	include('page-header.php');
+	include('templates/modules/page-header/template.php');
 ?>
 
 
@@ -12,7 +12,7 @@
 		
 		<?php 
 			$heading = "New news";
-			include('graphic-diptych.php');
+			include('templates/modules/graphic-diptych/template.php');
 		?>
 
 	</inner-column>
@@ -21,10 +21,10 @@
 
 <section class='other-news'>
 	<inner-column>
-		
+
 		<?php 
 			$heading = "In other news";
-			include('graphic-diptych.php');
+			include('templates/modules/graphic-diptych/template.php');
 		?>
 
 	</inner-column>

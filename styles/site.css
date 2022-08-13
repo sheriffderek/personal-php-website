@@ -32,29 +32,6 @@ mast-head {
 	align-items: center;
 }
 
-graphic-diptych {
-	display: block;
-	display: grid;
-	/*border: 2px solid blue;*/
-	padding: 10vh 0;
-}
-
-graphic-diptych .graphic {
-	background-color: var(--ink);
-	aspect-ratio: 3 / 2;
-}
-
-graphic-diptych .content {
-	/*padding: 20px;*/
-}
-
-@media (min-width: 600px) {
-	graphic-diptych {
-		grid-template-columns: 1fr 1fr;
-		gap: 20px;
-	}
-}
-
 .site-menu ul {
 	list-style: none;
 	margin: 0;
@@ -86,4 +63,27 @@ body {
 
 .other-news graphic-diptych .graphic {
 	background-color: var(--paper);
+}
+
+.other-news graphic-diptych .graphic {
+	order: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.show-code {
+	display: block;
+	padding: 10px;
+	background-color: #222;
+	color: lime;
 }

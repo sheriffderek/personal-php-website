@@ -1,0 +1,26 @@
+
+graphic-diptych {
+	display: block;
+	display: grid;
+	/*border: 2px solid blue;*/
+	padding: 10vh 0;
+}
+
+graphic-diptych picture {
+	
+}
+
+graphic-diptych .content {
+	/*padding: 20px;*/
+}
+
+@media (min-width: 600px) {
+	graphic-diptych {
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+	}
+
+	graphic-diptych.flipped picture {
+		order: 2;
+	}
+}

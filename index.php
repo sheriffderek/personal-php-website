@@ -1,9 +1,11 @@
+
 <?php include('header.php'); ?>
 
 
 <?php 
 	$pageTitle = "HOME page title";
-	include('page-header.php');
+	$pageIntro = "Welcome home, buddy.";
+	include('templates/modules/page-header/template.php');
 ?>
 
 
@@ -12,7 +14,19 @@
 		
 		<?php 
 			$heading = "Our new award";
-			include('graphic-diptych.php');
+			include('templates/modules/graphic-diptych/template.php');
+		?>
+
+	</inner-column>
+</section>
+
+
+<section class='latest-projects'>
+	<inner-column>
+		
+		<?php 
+			$heading = "My latest besties";
+			include('templates/modules/projects-spotlight/template.php');
 		?>
 
 	</inner-column>
