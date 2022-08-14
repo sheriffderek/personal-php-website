@@ -12,8 +12,8 @@ html {
 
 	--corners: 10px; /* or whatevers */
 
-	--paper: var(--white);
-	--ink: var(--black);
+	--paper: #ff744d;
+	--ink: rgba(255,255,255,.8);
 
 	--inner-column: 800px;
 }

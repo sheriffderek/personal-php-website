@@ -3,5 +3,6 @@
 
 @import '../templates/modules/page-header/style.css';
 @import '../templates/modules/generic-text/style.css';
+@import '../templates/modules/standard-figure/style.css';
 @import '../templates/modules/graphic-diptych/style.css';
 @import '../templates/modules/projects-spotlight/style.css';

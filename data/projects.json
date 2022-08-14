@@ -1,18 +1,25 @@
 [
 	{
-		"title": "Project 1",
+		"title": "Responsive Layout Garden",
 		"slug": "one",
-		"teaser": "This project is great because...",
+		"teaser": "Watch my garden grow",
 		"url": "https://outside.url",
 		"case-study": [
 			{
-				"module": "generic-text"
+				"module": "generic-text",
+				"content": "<h2>How many layouts can I master?</h2><p>I started out with 1. Then I made another. Now I have a whole garden of responsive layouts.</p>"
+			},
+			{
+				"module": "graphic-diptych"
+			},
+			{
+				"module": "standard-figure"
 			},
 			{
 				"module": "generic-text"
 			},
 			{
-				"module": "generic-text"
+				"module": "standard-figure"
 			},
 			{
 				"module": "projects-spotlight"
