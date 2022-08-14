@@ -1,0 +1,27 @@
+
+mast-head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.site-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+}
+
+.site-menu a {
+	display: block;
+	padding: 10px;
+}
+
+.site-header .logo {
+	flex-shrink: 0;
+}
+
+.site-header .logo * {
+	fill: var(--ink);
+}

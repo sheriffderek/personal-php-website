@@ -13,29 +13,13 @@
 		$page = $_GET['page'];
 	}
 
-	if ($page == "home") {
-		include('templates/pages/home.php');
+	$pageFilePath = 'templates/pages/' . $page . '.php';
+	if ( file_exists($pageFilePath) ) {
+		include('templates/pages/' . $page . '.php');
+	} else {
+		echo "Error: page <code>$page</code> does not exist";
 	}
 
-	if ($page == "about") {
-		include('templates/pages/about.php');
-	}
-
-	if ($page == "contact") {
-		include('templates/pages/contact.php');
-	}
-
-	if ($page == "style-guide") {
-		include('templates/pages/style-guide.php');
-	}
-
-	if ($page == "resume") {
-		include('templates/pages/resume.php');
-	}
-
-	if ($page == "goals") {
-		include('templates/pages/goals.php');
-	}
 
 ?>
 

@@ -19,6 +19,7 @@
 
 /* S tuff (modules) */
 @import 'modules.css';
+@import '../templates/partials/mast-head.css';
 
 /* S ections and more stuff */
 
@@ -26,34 +27,18 @@
 
 
 /* MODULES */
-mast-head {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
 
-.site-menu ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
-	display: flex;
-}
-
-.site-menu a {
-	display: block;
-	padding: 10px;
-}
-
-.site-header .logo * {
-	fill: var(--ink);
-}
 
 
 /* THEME */
 body {
 	background-color: var(--paper);
 	color: var(--ink);
+}
+
+.site-header inner-column {
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .other-news {

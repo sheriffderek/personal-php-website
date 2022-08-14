@@ -18,7 +18,7 @@
 		<header class='site-header'>
 			<inner-column>
 
-				<?php include('mast-head.php'); ?>
+				<?php include('templates/partials/mast-head.php'); ?>
 
 			</inner-column>
 		</header>
