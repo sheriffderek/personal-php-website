@@ -8,8 +8,8 @@
 	<inner-column>
 		
 		<?php 
-			$heading = "New news";
-			include('templates/modules/graphic-diptych/template.php');
+			$heading = "Latest projects";
+			include('templates/modules/projects-spotlight/template.php');
 		?>
 
 	</inner-column>

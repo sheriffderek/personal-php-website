@@ -1,0 +1,145 @@
+[
+	{
+		"title": "Project 1",
+		"slug": "one",
+		"teaser": "This project is great because...",
+		"url": "https://outside.url",
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Project 2",
+		"slug": "two",
+		"teaser": "This project is great because...",
+		"url": "https://outside.url",
+		"featured": true,
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Project 3",
+		"slug": "three",
+		"teaser": "This project is great because...",
+		"url": "https://outside.url",
+		"featured": true,
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Project 4",
+		"slug": "four",
+		"teaser": "This project is great because...",
+		"url": "https://outside.url",
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Project 5",
+		"slug": "five",
+		"teaser": "This project is great because...",
+		"url": "https://outside.url",
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Project 6",
+		"slug": "six",
+		"teaser": "This project is great because...",
+		"url": "https://outside.url",
+		"featured": true,
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	},
+	{
+		"title": "Project 7",
+		"slug": "seven",
+		"teaser": "This project is great because...",
+		"url": "https://outside.link",
+		"case-study": [
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "generic-text"
+			},
+			{
+				"module": "projects-spotlight"
+			}
+		]
+	}
+]
