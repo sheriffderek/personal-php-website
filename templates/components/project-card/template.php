@@ -1,7 +1,7 @@
 
 <?php
 	$title = $project['title'];
-	$url = $project['url'];
+	$slug = $project['slug'];
 ?>
 
 <project-card>
@@ -12,5 +12,5 @@
 
 	<p>Teaser here</p>
 
-	<a href='<?=$url?>'>Visit</a>
+	<a href='?page=project&slug=<?=$slug?>'>Visit</a>
 </project-card>

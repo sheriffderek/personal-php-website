@@ -18,6 +18,9 @@
 							<a href='?page=contact'>Contact</a>
 						</li>
 						<li>
+							<a href='?page=projects'>Projects</a>
+						</li>
+						<li>
 							<a href='?page=style-guide'>Style guide</a>
 						</li>
 						<li>
