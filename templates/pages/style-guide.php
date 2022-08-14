@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>
-
 
 <?php 
 	$pageTitle = "Living style guide";
@@ -56,6 +54,3 @@
 
 	</inner-column>
 </section>
-
-
-<?php include('footer.php'); ?>

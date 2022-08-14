@@ -1,11 +1,8 @@
-<?php include('header.php'); ?>
-
 
 <?php 
 	$pageTitle = "About page title";
 	include('templates/modules/page-header/template.php');
 ?>
-
 
 <section class='new-news'>
 	<inner-column>
@@ -18,7 +15,6 @@
 	</inner-column>
 </section>
 
-
 <section class='other-news'>
 	<inner-column>
 
@@ -29,6 +25,3 @@
 
 	</inner-column>
 </section>
-
-
-<?php include('footer.php'); ?>

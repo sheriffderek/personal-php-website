@@ -14,15 +14,27 @@
 	}
 
 	if ($page == "home") {
-		echo "home";
+		include('templates/pages/home.php');
 	}
 
 	if ($page == "about") {
-		echo "about";
+		include('templates/pages/about.php');
 	}
 
 	if ($page == "contact") {
-		echo "contact";
+		include('templates/pages/contact.php');
+	}
+
+	if ($page == "style-guide") {
+		include('templates/pages/style-guide.php');
+	}
+
+	if ($page == "resume") {
+		include('templates/pages/resume.php');
+	}
+
+	if ($page == "goals") {
+		include('templates/pages/goals.php');
 	}
 
 ?>

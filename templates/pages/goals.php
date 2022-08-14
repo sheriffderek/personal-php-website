@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>
-
 
 <?php 
 	$pageTitle = "My Goals";
@@ -15,6 +13,3 @@
 
 	</inner-column>
 </section>
-
-
-<?php include('footer.php'); ?>
