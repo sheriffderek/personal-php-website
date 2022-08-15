@@ -1,7 +1,5 @@
 
 <?php 
-	$pageTitle = "My Goals";
-	$pageIntro = "Here is what I'm working toward";
 	include('templates/modules/page-header/template.php');
 ?>
 

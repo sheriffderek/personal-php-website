@@ -13,19 +13,21 @@ Description
 
 * [x] api tests
 * [x] projects list
+* [x] home (backed by JSON)
+* [x] about
+* [x] contact
+* [x] goals
+* [x] resume
 
 ##### Up next
 
-* [x] project detail (case studies)
+* [ ] project detail (case studies)
+* [ ] style-guide / detail
 
 ##### Todo
 
 * [ ] exercises for programmer list/detail
 * [ ] responsive layout list/detail
-* [ ] home (backed by JSON)
-* [ ] about
-* [ ] contact
-* [ ] style-guide / detail
 
 * [ ] visual design (REWARD!)
 

@@ -29,6 +29,9 @@
 						<li>
 							<a href='?page=resume'>Résumé</a>
 						</li>
+						<li>
+							<a href='?page=error'>Error..</a>
+						</li>
 					</ul>
 				</nav>
 			</inner-column>
