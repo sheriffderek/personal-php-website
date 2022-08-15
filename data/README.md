@@ -21,7 +21,7 @@ Description
 
 ##### Up next
 
-* [ ] project detail (case studies)
+* [x] project detail (case studies)
 * [ ] style-guide / detail
 
 ##### Todo
