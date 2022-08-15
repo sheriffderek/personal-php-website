@@ -19,3 +19,11 @@ function formatCode($things) {
 function queryString() {
 	return $_SERVER['QUERY_STRING'];
 }
+
+
+function styleGuideDetailLink($type, $page) {
+	if ($page == "style-guide") {
+		$link = "?page=module&slug=$type";
+		echo "<a href='$link' target='$type'>LINK</a>";
+	}
+}
