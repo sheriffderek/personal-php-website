@@ -20,6 +20,8 @@ Description
 * [x] resume
 * [x] project detail (case studies)
 * [x] style-guide / detail
+* [x] default and custom page templates
+* [x] page/template-based classes for the body
 
 ##### Up next
 
@@ -28,7 +30,7 @@ Description
 
 ##### Todo
 
-* [ ] visual design (REWARD!)
+* [ ] visual design (REWARD!) (Not yet!!! Still a little ways to go!)
 
 ##### Needs content
 
