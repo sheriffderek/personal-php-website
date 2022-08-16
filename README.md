@@ -4,7 +4,7 @@
 Description
 
 <a 
-	href='https://peprojects.dev/examples/pro' 
+	href='https://peprojects.dev/examples/ultimate-portfolio-framework' 
 	target='live'>Live link</a>
 
 ### Path to completion
