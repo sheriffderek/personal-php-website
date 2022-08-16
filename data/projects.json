@@ -51,7 +51,7 @@
 		"title": "Project 3",
 		"slug": "three",
 		"teaser": "This project is great because...",
-		"url": "https://outside.url",
+		"url": "projects/project-three",
 		"featured": true,
 		"case-study": [
 			{

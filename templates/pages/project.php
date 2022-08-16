@@ -12,6 +12,7 @@
 	$title = $thisProject["title"];
 	$teaser = $thisProject["teaser"];
 	$sections = $thisProject["case-study"];
+	$url = $thisProject["url"];
 ?>
 
 <article>
@@ -40,5 +41,10 @@
 		</section>
 
 	<?php } ?>
+
+
+	<footer>
+		<a href='<?=$url?>' target='_blank'>Live site</a>
+	</footer>
 
 </article>

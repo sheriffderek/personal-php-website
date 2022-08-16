@@ -6,6 +6,8 @@
 			<inner-column>
 				<h2 class='attention-voice'>footer...</h2>
 
+				<code class='show-code'><?php echo "?" . queryString(); ?></code>
+
 				<nav class='site-menu'>
 					<ul>
 						<li>

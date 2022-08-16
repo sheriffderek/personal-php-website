@@ -87,3 +87,38 @@ goals-module {
 	background-color: #222;
 	color: lime;
 }
+
+
+
+.default-template {
+	--paper: #d1d1d1;
+	--ink: black;
+}
+
+.resume-template {
+	--paper: #c6bdab;
+	--ink: black;
+}
+
+.goals-template {
+	--paper: #0a0a2c;
+	--ink: #ffe100;
+}
+
+.projects-template {
+	--paper: #7878ff;
+	--ink: #ffffff;
+}
+
+.project-template {
+	--paper: #8500ff;
+	--ink: #ffffff;
+}
+
+.module-template {
+	--paper: orange;
+	--ink: red;
+}
+
+
+

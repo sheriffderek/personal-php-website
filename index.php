@@ -1,10 +1,4 @@
-
-<?php include('header.php'); ?>
-
-<?php echo "?" . queryString(); ?>
-
 <?php
-
 	/* ROUTER */
 	$page = "home";
 	if ( isset($_GET['page']) ) {
@@ -18,7 +12,13 @@
 		$thePageJson = file_get_contents($pageDataFilePath);
 		$pageData = json_decode($thePageJson, true);
 	}
+?>
 
+
+<?php include('header.php'); ?>
+
+
+<?php
 	if ($pageData) { 
 
 		if ( !isset( $pageData["template"] ) ) {
@@ -30,7 +30,6 @@
 	} else {
 		include('templates/pages/404.php');
 	}
-
 ?>
 
 

@@ -18,16 +18,15 @@ Description
 * [x] contact
 * [x] goals
 * [x] resume
+* [x] project detail (case studies)
+* [x] style-guide / detail
 
 ##### Up next
 
-* [x] project detail (case studies)
-* [ ] style-guide / detail
-
-##### Todo
-
 * [ ] exercises for programmer list/detail
 * [ ] responsive layout list/detail
+
+##### Todo
 
 * [ ] visual design (REWARD!)
 

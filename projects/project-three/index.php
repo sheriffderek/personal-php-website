@@ -24,7 +24,7 @@
 	/* LIST TEMPLATE */
 	if ($view == "list") {
 		// must be a list page
-		$json = file_get_contents("$endpoint/pokemon?limit=10");
+		$json = file_get_contents("$endpoint/pokemon?limit=1000");
 		$data = json_decode($json, true);
 		$monsters = $data["results"];
 
