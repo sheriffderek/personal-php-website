@@ -1,5 +1,5 @@
 
-<?php 
+<?php
 	$projectsJson = file_get_contents('data/projects.json'); 
 	$projectsJson = json_decode($projectsJson, true);
 

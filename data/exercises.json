@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Tip Calculator",
+		"intro": "Here's what this is all about!",
+		"slug": "tip-calculator",
+		"conclusion": "here's what I learned"
+	},
+	{
+		"title": "exercise-two",
+		"intro": "Here's what this is all about!",
+		"slug": "exercise-two",
+		"conclusion": "here's what I learned"
+	},
+	{
+		"title": "exercise-three",
+		"intro": "Here's what this is all about!",
+		"slug": "exercise-three",
+		"conclusion": "here's what I learned"
+	}
+]

@@ -25,8 +25,14 @@ Description
 
 ##### Up next
 
-* [ ] exercises for programmer list/detail
+* [x] exercises for programmer list/detail
 * [ ] responsive layout list/detail
+
+
+##### Lunch (late lunch)
+
+* [ ] a really tall celebration been
+ 
 
 ##### Todo
 
