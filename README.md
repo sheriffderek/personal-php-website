@@ -28,6 +28,12 @@ Description
 * [x] exercises for programmer list/detail
 * [ ] responsive layout list/detail
 
+* [x] list of responsive layouts (data/layouts)
+* [] the layout files (php) (each individual file)
+* [] register the page for the list (so the router loads the template)
+* [] create a template for the list - (so something will be loaded)
+* [] register the detail page (so the router will load it)
+* [] create the detail template (includes the layout) (so something will be loaded)
 
 ##### Lunch (late lunch)
 

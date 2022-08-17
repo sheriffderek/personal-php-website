@@ -23,6 +23,9 @@
 							<a href='?page=projects'>Projects</a>
 						</li>
 						<li>
+							<a href='?page=layouts'>Layouts</a>
+						</li>
+						<li>
 							<a href='?page=style-guide'>Style guide</a>
 						</li>
 						<li>
