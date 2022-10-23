@@ -1,4 +1,42 @@
 
 form {
-	
+	display: grid;
+	gap: 20px;
+	padding: 30px 10px;
+	background-color: lightgray;
+}
+
+form field {
+	display: grid;
+}
+
+form field label {
+	font-family: monospace;
+	color: blue;
+}
+
+form field input {
+	font-family: inherit;
+	font-size: 1rem;
+	padding: 0.5em 1em;
+	color: red;
+}
+
+form button {
+	justify-self: start;
+
+	font-family: inherit;
+	font-size: 1.2rem;
+	padding: 0.5em 2em;
+}
+
+form button:hover {
+	background-color: gray;
+	color: white;
+	cursor: pointer;
+}
+
+form button:active {
+	background-color: black;
+	color: white;
 }

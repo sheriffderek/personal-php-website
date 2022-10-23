@@ -8,10 +8,10 @@ function enableErrorReporting() {
 enableErrorReporting();
 
 
-function formatCode($things) {
+function formatCode($code) {
 	echo "<code class='show-code'>";
 		echo '<pre>';
-			print_r($things);
+			print_r($code);
 		echo '</pre>';
 	echo '</code>';
 }
@@ -38,4 +38,11 @@ function pageTemplateClass($pageData) {
 	} else {
 		return "default-template";
 	}
+}
+
+function magic_code_tm($code) {
+  $patterns = ["/<(?!\/?mark\b[^>]*>)/", "/[\$]/"];
+  $replacements = ['&lt;', "&#36;"];
+
+  return preg_replace($patterns, $replacements, $code);
 }

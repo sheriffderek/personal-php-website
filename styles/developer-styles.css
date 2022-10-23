@@ -1,8 +1,20 @@
 
 body * {
-	border: 1px solid rgba(255,255,255,.4);;
+	border: 1px solid rgba(0,0,0,.2);;
 	padding: 4px;
 }
+
+.show-php inner-column {
+	overflow: hidden;
+}
+
+.show-php inner-column * {
+	border: 0;
+}
+
+/*[style="color: #0000BB"] {
+	color: lime!important;
+}*/
 
 section:nth-of-type(odd) {
 	/*background-color: rgba(0,0,0,.03);*/

@@ -19,7 +19,9 @@
 	<header class="page-header">
 		<inner-column>
 
-			<h1 class='loud-voice'><?=$title?></h1>
+			<a href='?page=exercise&slug=<?=$slug?>'>
+				<h1 class='loud-voice'><?=$title?></h1>
+			</a>
 
 			<p><?=$intro?></p>
 
@@ -31,6 +33,20 @@
 		<inner-column>
 
 			<?php include("exercises/$slug.php"); ?>
+
+		</inner-column>
+	</section>
+
+
+	<section class='show-php'>
+		<inner-column>
+
+			<h2><code>$_POST</code></h2>
+			<?php formatCode($_POST); ?>
+
+			<p>(this syntax is a default representation from PHP - but we don't use the same syntax and spaces in the real code)</p>
+			
+			<?php show_source("exercises/$slug.php"); ?>
 
 		</inner-column>
 	</section>
