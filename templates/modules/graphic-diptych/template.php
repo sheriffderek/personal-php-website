@@ -8,7 +8,7 @@
 <graphic-diptych class='<?=$flipped?>'>
 	
 	<picture>
-		<img src='images/landscape.jpg' alt='$todo'>
+		<img src='/images/landscape.jpg' alt='$todo'>
 	</picture>
 
 	<div class='content'>

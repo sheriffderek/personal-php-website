@@ -28,6 +28,7 @@
 		}
 
 	} else {
+		http_response_code(404);
 		include('templates/pages/404.php');
 	}
 ?>

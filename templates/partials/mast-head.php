@@ -1,5 +1,5 @@
 <mast-head>
-	<a class='logo' href='index.php'>
+	<a class='logo' href='/'>
 		<svg viewBox='0 0 10 10' width='20'>
 			<circle cx='5' cy='5' r='5' fill='red' />
 		</svg>
@@ -8,13 +8,15 @@
 	<nav class='site-menu'>
 		<ul>
 			<li>
-				<a href='?'>Home</a>
+				<a href='/'>Home</a>
 			</li>
+
 			<li>
-				<a href='?page=about'>About</a>
+				<a href='/about'>about</a>
 			</li>
+
 			<li>
-				<a href='?page=contact'>Contact</a>
+				<a href='/contact'>Contact</a>
 			</li>
 		</ul>
 	</nav>

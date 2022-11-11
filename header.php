@@ -11,7 +11,7 @@
 		<!-- description -->
 		<!-- image -->
 
-		<link rel='stylesheet' href='styles/site.css'>
+		<link rel='stylesheet' href='/styles/site.css'>
 	</head>
 
 	<body class='<?=pageClass($page)?> <?=pageTemplateClass($pageData)?>'>

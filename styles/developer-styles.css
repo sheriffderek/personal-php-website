@@ -12,6 +12,17 @@ body * {
 	border: 0;
 }
 
+.show-php .notes {
+	font-size: 0.9em;
+	padding: 1em;
+	background-color: #ffe8be;
+	margin-top: 20px;
+}
+
+.show-php code {
+	font-size: 0.9em;
+}
+
 /*[style="color: #0000BB"] {
 	color: lime!important;
 }*/

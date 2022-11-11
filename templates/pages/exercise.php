@@ -44,7 +44,7 @@
 			<h2><code>$_POST</code></h2>
 			<?php formatCode($_POST); ?>
 
-			<p>(this syntax is a default representation from PHP - but we don't use the same syntax and spaces in the real code)</p>
+			<p class='calm-voice notes'>(this syntax is a default representation from PHP - but we don't use the same syntax and spaces in the real code)</p>
 			
 			<?php show_source("exercises/$slug.php"); ?>
 
