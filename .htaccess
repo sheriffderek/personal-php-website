@@ -5,18 +5,21 @@
 RewriteEngine On
 
 
-# /page-name →  ?page=page-name
-RewriteRule ^([0-9a-zA-Z_-]+)$ ./index.php?page=$1 [NC,L]
 
 
 # /projects  →  ?page=projects
 # getting tangled up with the next one
 
-# /projects/project-name  →                        ?page=projects&slug=project-slug
-RewriteRule ^projects/([0-9a-zA-Z_-]+)$ ./index.php?page=project&slug=$1 [NC,L]
+# /page-name →                 ?page=page-name
+RewriteRule ^([0-9a-zA-Z_-]+)$ ?page=$1 [NC,L]
 
-# /exercises/exercise-name  →                       ?page=exercise&slug=exercise-slug
-RewriteRule ^exercises/([0-9a-zA-Z_-]+)$ ./index.php?page=exercise&slug=$1 [NC,L]
+# /projects/project-name  →             ?page=projects&slug=project-slug
+RewriteRule ^projects/([0-9a-zA-Z_-]+)$ ?page=project&slug=$1 [NC,L]
 
-# /layouts/layout-name →                         ?page=module&slug=module-slug
-RewriteRule ^layouts/([0-9a-zA-Z_-]+) ./index.php?page=module&slug=$1 [NC,L]
+# /exercises/exercise-name  →            ?page=exercise&slug=exercise-slug
+RewriteRule ^exercises/([0-9a-zA-Z_-]+)$ ?page=exercise&slug=$1 [NC,L]
+
+# /layouts/layout-name →              ?page=module&slug=module-slug
+RewriteRule ^layouts/([0-9a-zA-Z_-]+) ?page=module&slug=$1 [NC,L]
+
+
