@@ -32,7 +32,7 @@
 	<section>
 		<inner-column>
 
-			<?php include("exercises/$slug.php"); ?>
+			<?php include("_exercises/$slug.php"); ?>
 
 		</inner-column>
 	</section>
@@ -46,7 +46,7 @@
 
 			<p class='calm-voice notes'>(this syntax is a default representation from PHP - but we don't use the same syntax and spaces in the real code)</p>
 			
-			<?php show_source("exercises/$slug.php"); ?>
+			<?php show_source("_exercises/$slug.php"); ?>
 
 		</inner-column>
 	</section>

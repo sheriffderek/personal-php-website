@@ -3,7 +3,7 @@
 		"title": "Responsive Layout Garden",
 		"slug": "one",
 		"teaser": "Watch my garden grow",
-		"url": "https://outside.url",
+		"url": "/layouts",
 		"case-study": [
 			{
 				"module": "generic-text",
