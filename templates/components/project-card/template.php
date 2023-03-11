@@ -12,5 +12,5 @@
 
 	<p>Teaser here</p>
 
-	<a href='?page=project&slug=<?=$slug?>'>Visit</a>
+	<a href='projects/<?=$slug?>'>Visit</a>
 </project-card>

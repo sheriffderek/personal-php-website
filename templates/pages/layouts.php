@@ -13,7 +13,7 @@
 	<section class='all-layouts'>
 		<inner-column>
 			
-			<?php include("layouts/$layout[slug].php"); ?>
+			<?php include("_layouts/$layout[slug].php"); ?>
 
 		</inner-column>
 	</section>

@@ -11,34 +11,34 @@
 				<nav class='site-menu'>
 					<ul>
 						<li>
-							<a href='?'>Home</a>
+							<a href=''>Home</a>
 						</li>
 						<li>
-							<a href='?page=about'>About</a>
+							<a href='about'>About</a>
 						</li>
 						<li>
-							<a href='?page=contact'>Contact</a>
+							<a href='contact'>Contact</a>
 						</li>
 						<li>
-							<a href='?page=projects'>Projects</a>
+							<a href='projects'>Projects</a>
 						</li>
 						<li>
-							<a href='?page=layouts'>Layouts</a>
+							<a href='layouts'>Layouts</a>
 						</li>
 						<li>
-							<a href='?page=style-guide'>Style guide</a>
+							<a href='style-guide'>Style guide</a>
 						</li>
 						<li>
-							<a href='?page=goals'>Goals</a>
+							<a href='goals'>Goals</a>
 						</li>
 						<li>
-							<a href='?page=resume'>Résumé</a>
+							<a href='resume'>Résumé</a>
 						</li>
 						<li>
-							<a href='?page=exercises'>Exercises</a>
+							<a href='exercises'>Exercises</a>
 						</li>
 						<li>
-							<a href='?page=error'>Error..</a>
+							<a href='error'>Error..</a>
 						</li>
 					</ul>
 				</nav>
