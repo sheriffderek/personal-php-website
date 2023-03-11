@@ -12,7 +12,7 @@
 			</li>
 
 			<li>
-				<a href='/about'>about</a>
+				<a href='/about'>About</a>
 			</li>
 
 			<li>

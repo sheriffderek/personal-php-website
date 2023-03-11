@@ -23,7 +23,7 @@ function queryString() {
 
 function styleGuideDetailLink($type, $page) {
 	if ($page == "style-guide") {
-		$link = "/layouts/$type";
+		$link = "style-guide/modules/$type";
 		echo "<a href='$link' target='$type'>LINK</a>";
 	}
 }

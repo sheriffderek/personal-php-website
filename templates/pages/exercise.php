@@ -19,7 +19,7 @@
 	<header class="page-header">
 		<inner-column>
 
-			<a href='?page=exercise&slug=<?=$slug?>'>
+			<a href='exercises/<?=$slug?>'>
 				<h1 class='loud-voice'><?=$title?></h1>
 			</a>
 

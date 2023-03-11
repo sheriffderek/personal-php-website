@@ -31,6 +31,14 @@ Description
 
 ##### To do
 
+* [x] setup the base url
+* [x] add config and example-config
+* [ ] basic page links
+* [ ] basic page rewrite rules
+* [ ] project links
+* [ ] project rewrite rules
+* [ ] talk about folder names for sub pages... 
+
 * [ ] visual design
 
 ##### Needs content

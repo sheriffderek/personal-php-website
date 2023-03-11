@@ -20,7 +20,7 @@
 				<li class='exercise'>
 					<h2><?=$title?></h2>
 
-					<a href='/exercises/<?=$slug?>'>
+					<a href='exercises/<?=$slug?>'>
 						Visit <span class='screen-reader-only'><?=$title?></span>
 					</a>
 				</li>

@@ -3,7 +3,7 @@
 		"title": "Responsive Layout Garden",
 		"slug": "one",
 		"teaser": "Watch my garden grow",
-		"url": "/layouts",
+		"url": "https://peprojects.dev/example-site",
 		"case-study": [
 			{
 				"module": "generic-text",
@@ -30,7 +30,7 @@
 		"title": "Project 2",
 		"slug": "two",
 		"teaser": "This project is great because...",
-		"url": "https://outside.url",
+		"url": "https://peprojects.dev/example-site",
 		"featured": true,
 		"case-study": [
 			{
@@ -72,7 +72,7 @@
 		"title": "Project 4",
 		"slug": "four",
 		"teaser": "This project is great because...",
-		"url": "https://outside.url",
+		"url": "https://peprojects.dev/example-site",
 		"case-study": [
 			{
 				"module": "generic-text"
@@ -92,7 +92,7 @@
 		"title": "Project 5",
 		"slug": "five",
 		"teaser": "This project is great because...",
-		"url": "https://outside.url",
+		"url": "https://peprojects.dev/example-site",
 		"case-study": [
 			{
 				"module": "generic-text"
@@ -112,7 +112,7 @@
 		"title": "Project 6",
 		"slug": "six",
 		"teaser": "This project is great because...",
-		"url": "https://outside.url",
+		"url": "https://peprojects.dev/example-site",
 		"featured": true,
 		"case-study": [
 			{
